@@ -1,0 +1,422 @@
+{
+  "baseNonUaPlanOnlyCount": 31,
+  "chartReady": [
+    {
+      "code": "RK A9A IEODO",
+      "jsIndex": 320,
+      "lowerFt": 0,
+      "lowerRef": "SFC",
+      "upperFt": 3000,
+      "upperRef": "AMSL",
+      "source": {
+        "document": "ENROUTE CHART(Main)",
+        "pdfPage": 1,
+        "chartReferenceDate": "2026-07-23"
+      }
+    },
+    {
+      "code": "RK A9B IEODO",
+      "jsIndex": 321,
+      "lowerFt": 0,
+      "lowerRef": "SFC",
+      "upperFt": 3000,
+      "upperRef": "AMSL",
+      "source": {
+        "document": "ENROUTE CHART(Main)",
+        "pdfPage": 1,
+        "chartReferenceDate": "2026-07-23"
+      }
+    },
+    {
+      "code": "MOA 29",
+      "jsIndex": 193,
+      "lowerFt": 3000,
+      "lowerRef": "AGL",
+      "upperFt": 40000,
+      "upperRef": "FL",
+      "source": {
+        "document": "ENROUTE CHART(Main)",
+        "pdfPage": 1,
+        "chartReferenceDate": "2026-07-23"
+      },
+      "chartTextBBox": [
+        836.83374,
+        1361.0896,
+        856.89313,
+        1371.32776
+      ]
+    }
+  ],
+  "resolvedViaExistingAirport": [
+    {
+      "code": "SOKCHO",
+      "jsIndex": 170,
+      "existingAirportId": "sokcho",
+      "source": {
+        "document": "ENR 2.1",
+        "pdfPage": 17,
+        "printedPage": "ENR 2.1 - 15",
+        "pageDate": "1 MAY 2025"
+      },
+      "lowerFt": 0,
+      "lowerRef": "SFC",
+      "upperFt": 2500,
+      "upperRef": "AGL",
+      "sourceRadiusNm": 5,
+      "jsRadiusNm": 3,
+      "note": "기존공항D레이어에 이미속초가있음. JS ALERT원형3NM은원문CTR5NM와다르므로별개ALERT고도를추정하지않음."
+    }
+  ],
+  "needsAdditionalSource": [
+    {
+      "code": "MYONGNAERI",
+      "jsIndex": 29,
+      "reason": "첨부 JS는 ALERT로 분류하지만 제공된 ENR 5.2 ALERT 표와 ENR 2.1·2.2에서 대응 공시 항목을 확인하지 못했습니다.",
+      "needed": "공식 공역 명칭·분류와 수직 범위가 포함된 AIP 또는 군용 공역 자료"
+    },
+    {
+      "code": "CHANGWON",
+      "jsIndex": 202,
+      "reason": "첨부 JS는 ALERT로 분류하지만 제공된 ENR 5.2 ALERT 표와 ENR 2.1·2.2에서 대응 공시 항목을 확인하지 못했습니다.",
+      "needed": "공식 공역 명칭·분류와 수직 범위가 포함된 AIP 또는 군용 공역 자료"
+    },
+    {
+      "code": "RK D3 YANGSAN",
+      "jsIndex": 214,
+      "reason": "JS 평면 경계는 있으나 제공된 ENR 5.1 표와 2026-07-23 항공도에서 대응 수직 범위를 확인하지 못했습니다.",
+      "needed": "해당 D 구역의 하한·상한 및 유효·철회 여부가 실린 ENR 5.1 또는 NOTAM"
+    },
+    {
+      "code": "RK D4 IPCHANG",
+      "jsIndex": 205,
+      "reason": "JS 평면 경계는 있으나 제공된 ENR 5.1 표와 2026-07-23 항공도에서 대응 수직 범위를 확인하지 못했습니다.",
+      "needed": "해당 D 구역의 하한·상한 및 유효·철회 여부가 실린 ENR 5.1 또는 NOTAM"
+    },
+    {
+      "code": "RK D10 MAEPO",
+      "jsIndex": 26,
+      "reason": "JS 평면 경계는 있으나 제공된 ENR 5.1 표와 2026-07-23 항공도에서 대응 수직 범위를 확인하지 못했습니다.",
+      "needed": "해당 D 구역의 하한·상한 및 유효·철회 여부가 실린 ENR 5.1 또는 NOTAM"
+    },
+    {
+      "code": "RK D11 YEONGDEOK",
+      "jsIndex": 200,
+      "reason": "JS 평면 경계는 있으나 제공된 ENR 5.1 표와 2026-07-23 항공도에서 대응 수직 범위를 확인하지 못했습니다.",
+      "needed": "해당 D 구역의 하한·상한 및 유효·철회 여부가 실린 ENR 5.1 또는 NOTAM"
+    },
+    {
+      "code": "RK D12 HYEDEOK",
+      "jsIndex": 27,
+      "reason": "JS 평면 경계는 있으나 제공된 ENR 5.1 표와 2026-07-23 항공도에서 대응 수직 범위를 확인하지 못했습니다.",
+      "needed": "해당 D 구역의 하한·상한 및 유효·철회 여부가 실린 ENR 5.1 또는 NOTAM"
+    },
+    {
+      "code": "DOKDO",
+      "jsIndex": 61,
+      "reason": "독도 인근 JS 경계는 ENR 5.2의 동명 공중급유 회랑(36°N, 130°E 부근)과 위치가 다릅니다. 서도·동도 다각형은 섬 윤곽이며 공역 수직 범위를 제시하지 않습니다.",
+      "needed": "독도 인근 구역의 공식 공역명·분류·수직 범위 및 섬 윤곽의 공역 경계 해당 여부"
+    },
+    {
+      "code": "DOKDO(SEODO)",
+      "jsIndex": 190,
+      "reason": "독도 인근 JS 경계는 ENR 5.2의 동명 공중급유 회랑(36°N, 130°E 부근)과 위치가 다릅니다. 서도·동도 다각형은 섬 윤곽이며 공역 수직 범위를 제시하지 않습니다.",
+      "needed": "독도 인근 구역의 공식 공역명·분류·수직 범위 및 섬 윤곽의 공역 경계 해당 여부"
+    },
+    {
+      "code": "DOKDO(DONGDO)",
+      "jsIndex": 191,
+      "reason": "독도 인근 JS 경계는 ENR 5.2의 동명 공중급유 회랑(36°N, 130°E 부근)과 위치가 다릅니다. 서도·동도 다각형은 섬 윤곽이며 공역 수직 범위를 제시하지 않습니다.",
+      "needed": "독도 인근 구역의 공식 공역명·분류·수직 범위 및 섬 윤곽의 공역 경계 해당 여부"
+    },
+    {
+      "code": "MOA25H(HALLA)",
+      "jsIndex": 296,
+      "reason": "2022년 ENR 5.2는 MOA 25H 전체에 10,000 ft AMSL–FL400을 공시하지만, 2026년 항공도는 하한 10,000 ft AMSL과 FL170을 위치별로 표시합니다. HALLA 소구역과 현행 고도 분할 경계의 대조가 필요합니다.",
+      "needed": "MOA 25H/HALLA의 현행 구역별 좌표·고도표 또는 고도 분할 상세도",
+      "sourceConflicts": [
+        {
+          "document": "ENR 5.2",
+          "pdfPage": 3,
+          "pageDate": "20 OCT 2022",
+          "limits": "10000ftAMSL–FL400"
+        },
+        {
+          "document": "ENROUTE CHART(Main)",
+          "pdfPage": 1,
+          "chartReferenceDate": "2026-07-23",
+          "limits": "10000AMSL–FL400 and FL170–FL400 in different places"
+        }
+      ],
+      "currentModelNote": "별도 HALLA 항목은 평면이지만 그 위치는 현재 ENR 2022 기반 MOA 25H 입체에 포함됩니다. 완전히 비어 있는 구역으로 설명하지 않습니다."
+    },
+    {
+      "code": "RK R14 PYEONGDONG",
+      "reason": "ENR 5.1의 수직 범위가 By NOTAM으로만 공시되어 있습니다.",
+      "needed": "대상 기간 NOTAM의 하한·상한",
+      "source": {
+        "document": "ENR 5.1",
+        "pdfPage": 2,
+        "pageDate": "20 OCT 2022"
+      }
+    },
+    {
+      "code": "LASER SEJONG",
+      "source": {
+        "document": "ENR 5.3",
+        "pdfPage": 2
+      },
+      "reason": "위치와 상한 UNL만 있고 하한·수평 반경이 없습니다.",
+      "needed": "수직 하한과 수평 위험 범위"
+    },
+    {
+      "code": "LASER GEOCHANG",
+      "source": {
+        "document": "ENR 5.3",
+        "pdfPage": 2
+      },
+      "reason": "위치와 상한 UNL만 있고 하한·수평 반경이 없습니다.",
+      "needed": "수직 하한과 수평 위험 범위"
+    },
+    {
+      "code": "LASER ILWOL",
+      "source": {
+        "document": "ENR 5.3",
+        "pdfPage": 3
+      },
+      "reason": "상한 UNL과 22 NM 안전 원은 있지만 수직 하한이 없습니다.",
+      "needed": "수직 하한"
+    },
+    {
+      "code": "LASER KOGAS-JEJU",
+      "source": {
+        "document": "ENR 5.3",
+        "pdfPage": 3
+      },
+      "reason": "SFC–77 ft AMSL과 115 m 방사 거리는 있지만 완결된 수평 공역 경계가 없습니다.",
+      "needed": "방사 방향·형상 등이 포함된 수평 위험 경계"
+    }
+  ],
+  "modelCaveats": [
+    {
+      "codes": [
+        "RK P518",
+        "RK P518W",
+        "RK P518E"
+      ],
+      "reason": "해안선·북방한계선·군사분계선의 완결 좌표가 없어 첨부 JS를 보완 사용했습니다.",
+      "needed": "공식 경계 GIS 또는 완결 좌표"
+    },
+    {
+      "codes": [
+        "MOA 12E",
+        "MOA 13W",
+        "MOA 13E",
+        "MOA 32",
+        "MOA 33"
+      ],
+      "reason": "A586/Y579 항공로 운영시간 중 제외 조건은 실시간 운영 정보가 없어 적용하지 않았습니다.",
+      "needed": "대상 시간의 항공로·MOA 활성 상태 및 NOTAM"
+    },
+    {
+      "codes": [
+        "RK A811 BUCHEON"
+      ],
+      "reason": "김포 CTR 제외 조건에 필요한 정확한 경계를 확인하지 못했습니다.",
+      "needed": "AD 2 RKSS의 CTR 경계 자료"
+    },
+    {
+      "codes": [
+        "TAEAN ATZ",
+        "POSEUNG ATZ"
+      ],
+      "reason": "2022년 ENR 2.2는 태안 1,500/1,000 ft MSL, 포승 1,000 ft AMSL로 공시하며 2026년 항공도는 같은 수치를 AGL로 표시합니다. 현재 입체는 ENR 기준을 적용합니다.",
+      "needed": "최신 ENR 2.2 또는 태안·포승 비행장 자료의 수직한계·고도 기준"
+    }
+  ],
+  "expectedAfterRootIntegration": {
+    "chartReadyResolved": 3,
+    "reclassifiedToAirport": 12,
+    "additionalSourceNeededNonUa": 16,
+    "note": "UA 결과는 ENR 5.5 추출 이후 별도로 합산합니다. 추가 자료 16개에는 HALLA의 판본·고도 분할 확인 사항이 포함됩니다."
+  },
+  "scope": "ENR5.5와 기존 항공도 보완 및 Class D ATZ 재분류를 적용한 뒤의 추가 자료·확인 필요 목록",
+  "resolved": {
+    "uaCount": 48,
+    "newChartBackfills": [
+      "RK A9A",
+      "RK A9B",
+      "MOA 29"
+    ],
+    "addedAtzCount": 13,
+    "addedAtzLayerCount": 15,
+    "airportReclassifications": [
+      {
+        "jsIndex": 187,
+        "jsName": "GAPYEONG",
+        "airportId": "atz-gapyeong",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 180,
+        "jsName": "YANGPYEONG",
+        "airportId": "atz-yangpyeong",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 196,
+        "jsName": "HONGCHEON",
+        "airportId": "atz-hongcheon",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 30,
+        "jsName": "HYEONRI",
+        "airportId": "atz-hyeonri",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 220,
+        "jsName": "YONGIN",
+        "airportId": "atz-yongin",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 18,
+        "jsName": "JEONJU",
+        "airportId": "atz-jeonju",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 219,
+        "jsName": "YOUNGCHEON",
+        "airportId": "atz-youngcheon",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 60,
+        "jsName": "GEUMWANG",
+        "airportId": "atz-geumwang",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 186,
+        "jsName": "CHUNCHEON",
+        "airportId": "atz-chuncheon",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 201,
+        "jsName": "DEOKSO",
+        "airportId": "atz-deokso",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 213,
+        "jsName": "JOCHIWON",
+        "airportId": "atz-jochiwon",
+        "sourceClassification": "ATZ Class D",
+        "source": {
+          "document": "ENR 2.2",
+          "pdfPage": 3,
+          "printedPage": "ENR 2.2 - 3",
+          "pageDate": "9 MAY 2019",
+          "effective": null
+        }
+      },
+      {
+        "jsIndex": 170,
+        "jsName": "SOKCHO",
+        "airportId": "sokcho",
+        "sourceClassification": "CTR Class D",
+        "source": {
+          "document": "ENR 2.1",
+          "pdfPage": 17,
+          "printedPage": "ENR 2.1 - 15",
+          "pageDate": "1 MAY 2025",
+          "effective": "1600UTC 11 JUN 2025"
+        },
+        "note": "Existing source-backed Sokcho/Yangyang priority geometry preserved unchanged."
+      }
+    ],
+    "latestAddition": [
+      "TAEAN ATZ",
+      "POSEUNG ATZ"
+    ]
+  },
+  "counts": {
+    "additionalSourceOrSectorConfirmationNeeded": 16,
+    "unresolvedUa": 0,
+    "addedAtz": 13,
+    "reclassifiedJsToAirport": 12
+  }
+}
